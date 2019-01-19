@@ -1,7 +1,7 @@
 from turtle import *
 
 class MyTurtle(Turtle):
-    def __init__(self, speed=0, color="yellow"):
+    def __init__(self, speed=0, git chccolor="yellow"):
         Turtle.__init__(self, shape="turtle")
         self.speed(speed)
         self.color(color)
